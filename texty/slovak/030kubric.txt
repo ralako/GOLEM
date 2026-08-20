@@ -1,0 +1,5 @@
+{
+\textbf{(a), (b), (c), (d)} Vypočítajte súčet koreňov rovnice. \\[1mm]
+(Viacnásobné korene započítajte do súčtu daný počet krát podľa ich násobnosti.) \\[1mm]
+\phantom{x}
+}

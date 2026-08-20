@@ -1,0 +1,10 @@
+{\small \begin{minipage}{0.6\textwidth}
+\textbf{(a)} Expand the brackets and simplify the expression. \\[1mm]
+\textbf{(b)} Expand the brackets and simplify the expression. \\[1mm]
+\textbf{(c)} Expand the brackets and simplify the expression.
+\end{minipage} \begin{minipage}{0.39\textwidth}
+\textbf{(d)} Simplify the expression. \\[1mm]
+\textbf{(e)} Simplify the expression. \\[1mm]
+\textbf{(f)} Simplify the expression.
+\end{minipage}
+}

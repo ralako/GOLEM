@@ -1,0 +1,10 @@
+{\small \begin{minipage}{0.5\textwidth}
+\textbf{(a)} Determine the number of real solutions. \\[1mm]
+\textbf{(b)} Determine the number of real solutions. \\[1mm]
+\textbf{(c)} Determine the x-coordinate of the vertex.
+\end{minipage} \begin{minipage}{0.49\textwidth}
+\textbf{(d)} Determine the y-coordinate of the vertex. \\[1mm]
+\textbf{(e)} Calculate the sum of the solutions. \\[1mm]
+\textbf{(f)} Calculate the sum of the solutions.
+\end{minipage}
+}

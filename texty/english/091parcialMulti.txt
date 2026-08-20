@@ -1,0 +1,9 @@
+{\small \begin{multicols}{2} \raggedright
+\textbf{(a)} Calculate the partial derivative of the given function \(f(x,y)\). \\[1mm]
+\textbf{(b)} Determine the gradient of function \(f(x,y)\) at the given point \(A\). \\[1mm]
+\textbf{(c)} Write the equation of the tangent plane to the graph of the function \(g(x,y)\) at the point of tangency \(D\). \par \columnbreak
+\textbf{(d)} Using linear approximation, estimate the value of the function \(g(x,y)\) at the point shifted by the vector \((\Delta x, \Delta y)\) from point \(D_0\). \\[1mm]
+\textbf{(e)} Calculate \(h(x,y)\) at its local extremum. \\[1mm]
+\textbf{(f)} Find the point of the constrained local extremum of the function \(h(x,y)\) on the given line \(y(x)\). \\[1mm]
+\end{multicols}
+}

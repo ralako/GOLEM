@@ -1,0 +1,9 @@
+{\small \begin{minipage}{0.44\textwidth} \raggedright
+\textbf{(a)} Vypočítajte absolútnu hodnotu komplexného čísla. \\[1mm]
+\textbf{(b)} Určte uhol \(\varphi\) komplexného čísla. \\[1mm]
+\textbf{(c)} Zistite, či komplexné číslo leží na imaginárnej osi. \end{minipage} \begin{minipage}{0.54\textwidth}
+\textbf{(d)} Zapíšte komplexné číslo v goniometrickom tvare. \\[1mm]
+\textbf{(e)} Zapíšte komplexné číslo v algebraickom tvare. \\[1mm]
+\textbf{(f)} Vyriešte rovnicu v obore komplexných čísel a určte súčin jej riešení.
+\end{minipage}
+}

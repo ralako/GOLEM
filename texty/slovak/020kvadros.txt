@@ -1,0 +1,9 @@
+{\small \begin{multicols}{2} \raggedright
+\textbf{(a)} Zistite počet riešení rovnice v \(\mathbb{R}\). \\[1mm]
+\textbf{(b)} Zistite počet riešení rovnice v \(\mathbb{R}\). \\[1mm]
+\textbf{(c)} Určte x-ovú súradnicu vrcholu paraboly. \par \columnbreak
+\textbf{(d)} Určte y-ovú súradnicu vrcholu paraboly. \\[1mm]
+\textbf{(e)} Vypočítajte súčet riešení rovnice. \\[1mm]
+\textbf{(f)} Vypočítajte súčet riešení rovnice.
+\end{multicols}
+}

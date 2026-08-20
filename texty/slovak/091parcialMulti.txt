@@ -1,0 +1,9 @@
+{\small \begin{multicols}{2} \raggedright
+\textbf{(a)} Vypočítajte zadanú parciálnu deriváciu funkcie \(f(x,y)\). \\[1mm]
+\textbf{(b)} Určte gradient \(f(x,y)\) v bode \(A\). \\[1mm]
+\textbf{(c)} Napíšte rovnicu dotykovej roviny ku grafu funkcie \(g(x,y)\) v dotykovom bode \(D\). \par \columnbreak
+\textbf{(d)} Pomocou lineárnej aproximácie odhadnite funkčnú hodnotu funkcie \(g(x,y)\) v bode, ktorý je posunutý o vektor \((\Delta x, \Delta y)\) od bodu \(D_0\). \\[1mm]
+\textbf{(e)} Vypočítajte \(h(x,y)\) v jej lokálnom extréme. \\[1mm]
+\textbf{(f)} Nájdite bod viazeného lokálneho extrému funkcie \(h(x,y)\) na priamke. \\[1mm]
+\end{multicols}
+}

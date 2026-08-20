@@ -1,0 +1,5 @@
+{
+\textbf{(a), (b), (c), (d)} Calculate the sum of the roots of the equation. \\[1mm]
+(Count multiple roots in the sum according to their multiplicity.) \\[1mm]
+\phantom{x}
+}

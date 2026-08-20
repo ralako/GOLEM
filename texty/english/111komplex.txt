@@ -1,0 +1,9 @@
+{\small \begin{minipage}{0.44\textwidth} \raggedright
+\textbf{(a)} Calculate the absolute value of the complex number. \\[1mm]
+\textbf{(b)} Determine the argument \(\varphi\). \\[1mm]
+\textbf{(c)} Decide whether the complex number lies on the imaginary axis. \end{minipage} \begin{minipage}{0.54\textwidth}
+\textbf{(d)} Write in the trigonometric form. \\[1mm]
+\textbf{(e)} Write in the algebraic form. \\[1mm]
+\textbf{(f)} Solve the equation and calculate the product of its solutions.
+\end{minipage}
+}

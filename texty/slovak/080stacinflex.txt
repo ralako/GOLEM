@@ -1,0 +1,7 @@
+{\small \begin{multicols}{2} \raggedright
+\textbf{(a)} Zistite, či \(f(x)\) rastie v bode \(x_0\). \\[1mm]
+\textbf{(b)} Zistite, či je \(f(x)\) v bode \(x_0\) rýdzo konvexná. \par \columnbreak
+\textbf{(c)} Vypočítajte súčet x-ových súradníc stacionárneho a inflexného bodu. \\[1mm]
+\textbf{(d)} Určte x-ovú súradnicu stacionárneho bodu a rozhodnite, či ide o lokálne minimum (lomin), maximum (lomax) alebo sedlo. \\[1mm]
+\end{multicols}
+}

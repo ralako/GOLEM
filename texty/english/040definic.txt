@@ -1,0 +1,4 @@
+{
+\textbf{(a), (b), (c), (d), (e), (f)} Find the domain of the given function. \\[1mm]
+\phantom{x}
+}

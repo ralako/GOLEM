@@ -1,0 +1,9 @@
+{\small \begin{minipage}{0.44\textwidth} \raggedright
+\textbf{(a)} Determine the imaginary part. \\[1mm]
+\textbf{(b)} Calculate the roots of the quadratic equation in the field of complex numbers. \\[1mm]
+\textbf{(c)} Find the sum of the real numbers \(x\) and \(y\) that satisfy the equation. \end{minipage} \begin{minipage}{0.54\textwidth}
+\textbf{(d)} Write in the algebraic form. \\[1mm]
+\textbf{(e)} Determine the real part of the complex number. \\[1mm]
+\textbf{(f)} Simplify and write the resulting complex number in the exponential form.
+\end{minipage}
+} \vspace{3mm}

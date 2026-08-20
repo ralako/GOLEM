@@ -1,0 +1,9 @@
+{\small \begin{multicols}{2} \raggedright
+\textbf{(a)} Určte imaginárnu časť komplexného čísla. \\[1mm]
+\textbf{(b)} Vypočítajte korene kvadratickej rovnice v~obore komplexných čísel. \\[1mm]
+\textbf{(c)} Nájdite súčet reálnych čísel $x$, $y$, pre ktoré platí rovnica. \par \columnbreak
+\textbf{(d)} Zapíšte v algebraickom tvare. \\[1mm]
+\textbf{(e)} Určte reálnu časť komplexného čísla. \\[1mm]
+\textbf{(f)} Zjednodušte a výsledné komplexné číslo zapíšte v exponenciálnom tvare.
+\end{multicols}
+}

@@ -1,0 +1,4 @@
+{
+\textbf{(a), (b), (c), (d), (e), (f)} Nájdite definičný obor funkcie. \\[1mm]
+\phantom{x}
+}

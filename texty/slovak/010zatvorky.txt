@@ -1,0 +1,10 @@
+{\small \begin{minipage}{0.6\textwidth}
+\textbf{(a)} Roznásobte zátvorky a zjednodušte výraz. \\[1mm]
+\textbf{(b)} Roznásobte zátvorky a zjednodušte výraz. \\[1mm]
+\textbf{(c)} Roznásobte zátvorky a zjednodušte výraz.
+\end{minipage} \begin{minipage}{0.39\textwidth}
+\textbf{(d)} Zjednodušte výraz. \\[1mm]
+\textbf{(e)} Zjednodušte výraz. \\[1mm]
+\textbf{(f)} Zjednodušte výraz.
+\end{minipage}
+}

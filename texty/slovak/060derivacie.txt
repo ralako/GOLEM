@@ -1,0 +1,9 @@
+{\small \begin{multicols}{2} \raggedright
+\textbf{(a)} Zderivujte zadanú funkciu. \\[1mm]
+\textbf{(b)} Zderivujte zadanú funkciu. \\[1mm]
+\textbf{(c)} Zderivujte zadanú funkciu. \par \columnbreak
+\textbf{(d)} Zderivujte zadanú funkciu. \\[1mm]
+\textbf{(e)} Zderivujte zadanú funkciu. \\[1mm]
+\textbf{(f)} Zderivujte zadanú funkciu.
+\end{multicols}
+}

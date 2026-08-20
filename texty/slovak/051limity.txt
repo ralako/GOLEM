@@ -1,0 +1,7 @@
+{\small \begin{multicols}{2} \raggedright
+\phantom{xxxxxxxxx}\textbf{(a)} Zjednodušte výraz. \\[1mm]
+\phantom{xxxxxxxxx}\textbf{(b)} Zjednodušte výraz. \par \columnbreak
+\textbf{(c)} Vypočítajte limitu postupnosti. \\[1mm]
+\textbf{(d)} Vypočítajte limitu postupnosti.
+\end{multicols}
+}

@@ -1,0 +1,4 @@
+{
+\textbf{(a), (b, (c), (d), (e), (f)} Calculate the limit of the sequence. \\[-1mm]
+\phantom{x}
+}

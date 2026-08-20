@@ -1,0 +1,7 @@
+{\small \begin{multicols}{2} \raggedright
+\textbf{(a)} Určte rovnicu dotyčnice k funkcii \(f(x)\) v~bode \(x_0\). \\[1mm]
+\textbf{(b)} Určte rovnicu dotyčnice k funkcii \(f(x)\) v~bode \(x_0\). \par \columnbreak
+\textbf{(c)} Zistite y-ové súradnice bodov, v ktorých je sklon \(f(x)\) rovný \(k\). \\[1mm]
+\textbf{(d)} Zistite y-ové súradnice bodov, v ktorých je sklon \(f(x)\) rovný \(k\). \\[1mm]
+\end{multicols}
+}
