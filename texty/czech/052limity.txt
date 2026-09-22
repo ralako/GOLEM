@@ -1,0 +1,9 @@
+{\small \begin{multicols}{2} \raggedright
+\textbf{(a)} Určete, zda limita funkce existuje. \\[1mm]
+\textbf{(b)} Rozhodněte, zda limita funkce konverguje nebo diverguje. \\[1mm]
+\textbf{(c)} Vypočtěte limitu funkce. \par \columnbreak
+\textbf{(d)} Vypočtěte limitu funkce. \\[1mm]
+\textbf{(e)} Vypočtěte limitu funkce. \\[1mm]
+\textbf{(f)} Vypočtěte limitu funkce. \\[1mm]
+\end{multicols}
+}

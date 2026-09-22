@@ -56,7 +56,7 @@ class Zadanie:
                 cifra = int(string[i])
                 cisloStr += string[i]
             except:
-                if string[i] in ['x','y','z','\\','n','i','e']:
+                if string[i] in ['x','y','z','t','\\','n','i','e']:
                     if cisloStr != '':
                         if int(cisloStr) == 1:
                             odstran.append(i-1-odstranenePocet)
@@ -128,11 +128,16 @@ class Zadanie:
         return r'$\cfrac{' + self.check(riesenieCit) + r'}{' + self.check(riesenieMen) + r'}$'
 
 
-    def texRiesZlomCisla(self,citatel,menovatel,pripoj='',nicefrac=True,popZnamienko=False):
+    def texRiesZlomCisla(self,citatel,menovatel,pripoj='',nicefrac=True,popZnamienko=False,textoutput=True):
         if menovatel == 0:
-            return 'nedefinované'
+            if textoutput:
+                return 'nedefinovane'
+            else:
+                return (0,0)
         elif citatel == 0:
-            return r'$0$'
+            if textoutput:
+                return r'$0$'
+            return (0,1)
         else:
             if menovatel < 0:
                 citatel = -citatel
@@ -180,25 +185,30 @@ class Zadanie:
                         pripoj = ''
 
             if menovatel == 1:
-                return r'$'+ str(citatel) + pripoj + r'$'
-            else:
-                if popZnamienko and str(citatel)[0] == '-':
-                    if nicefrac:
-                        return r'$-\nicefrac{' + str(citatel)[1:] + pripoj + r'}{' + str(menovatel) + r'}$'
-                    else:
-                        return r'$-\frac{' + str(citatel)[1:] + pripoj + r'}{' + str(menovatel) + r'}$'
+                if textoutput:
+                    return r'$'+ str(citatel) + pripoj + r'$'
                 else:
-                    if nicefrac:
-                        return r'$\nicefrac{' + str(citatel) + pripoj + r'}{' + str(menovatel) + r'}$'
+                    return (citatel,1)
+            else:
+                if textoutput:
+                    if popZnamienko and str(citatel)[0] == '-':
+                        if nicefrac:
+                            return r'$-\nicefrac{' + str(citatel)[1:] + pripoj + r'}{' + str(menovatel) + r'}$'
+                        else:
+                            return r'$-\frac{' + str(citatel)[1:] + pripoj + r'}{' + str(menovatel) + r'}$'
                     else:
-                        return r'$\frac{' + str(citatel) + pripoj + r'}{' + str(menovatel) + r'}$'
-
+                        if nicefrac:
+                            return r'$\nicefrac{' + str(citatel) + pripoj + r'}{' + str(menovatel) + r'}$'
+                        else:
+                            return r'$\frac{' + str(citatel) + pripoj + r'}{' + str(menovatel) + r'}$'
+                else:
+                    return (citatel,menovatel)
 
 
     
     def texRiesZlomPi(self,citatel,menovatel,nicefrac=False,popZnamienko=True):
         if menovatel == 0:
-            return 'nedefinované'
+            return 'nedefinovane'
         elif citatel == 0:
             return r'$0$'
         else:
@@ -257,10 +267,17 @@ class Zadanie:
         return r'$' + vypis[:-len(oddelovac)] + r'$'
 
 
-    def texInterval(self,intervaly,uzavretia):
-        uzavSymZac = [r'(',r'\langle']
-        uzavSymKon = [r')',r'\rangle']
-        string = r'$x\in'
+    def texInterval(self,intervaly,uzavretia, premenna="x", husty=False):
+        uzavSymZac = [r"\left(",r"\left\langle"]
+        uzavSymKon = [r"\right)",r"\right\rangle"]
+        if premenna == False:
+            string = r"$"
+        else:
+            if husty:
+                string = r"$"+premenna+r"\!\in\!"
+            else:
+                string = r"$"+premenna+r"\in"
+
         for i in range(len(intervaly)):
             zaciatok = intervaly[i][0]
             koniec = intervaly[i][1]
@@ -274,10 +291,16 @@ class Zadanie:
                 koniec = r'\infty'
             if koniec in ['-inf','-infty','-INF','-INFTY','-infinity','-INFINITY']:
                 koniec = r'-\infty'
-            string += uzavSymZac[uzavZac] + str(zaciatok) + r' , ' + str(koniec) + uzavSymKon[uzavKon]
+            if husty:
+                string += uzavSymZac[uzavZac] + str(zaciatok) + r",\!" + str(koniec) + uzavSymKon[uzavKon]
+            else:
+                string += uzavSymZac[uzavZac] + str(zaciatok) + r" , " + str(koniec) + uzavSymKon[uzavKon]
             if i != len(intervaly)-1:
-                string += r'\cup'
-        return string + r'$'
+                if husty:
+                    string += r'\!\cup\!'
+                else:
+                    string += r'\cup'
+        return string + r"$"
 
 
     def texIntervalR(self,body):
@@ -530,7 +553,7 @@ def stranawrite(skupina,slovo,nazov,prikladyLoad,text,N,prikladyFontsize=r'\smal
         t(r'{\Huge\bfseries '+str(j+1)+r'.} \\[2mm]')
         t(r'\includegraphics[height=37mm]{images/braille.png}')
         if jazyk == "slovak":
-            t(r'{\small Braillove písmeno}')
+            t(r'{\small Braillovo písmeno}')
         elif jazyk == "czech":
             t(r'{\small Braillovo písmeno}')
         else:

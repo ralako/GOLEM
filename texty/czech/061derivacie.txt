@@ -1,0 +1,9 @@
+{\small \begin{multicols}{2} \raggedright
+\textbf{(a)} Určete monotonii funkce \(f(x)\) v okolí bodu \(x_0\). \\[1mm]
+\textbf{(b)} Určete intervaly, na kterých je funkce \(g(x)\) klesající. \\[1mm]
+\textbf{(c)} Určete počet stacionárních bodů funkce \(h(t)\). \par \columnbreak
+\textbf{(d)} Nabývá funkce \(v(x)\) lokálního extrému? \\[1mm]
+\textbf{(e)} Určete rozdíl hodnot lokálního maxima a lokálního minima funkce \(\varphi(x)\). \\[1mm]
+\textbf{(f)} Určete součin \(x\)-ových souřadnic bodů globálního maxima a globálního minima funkce \(\omega(x)\) na zadaném intervalu. \\[1mm]
+\end{multicols}
+}

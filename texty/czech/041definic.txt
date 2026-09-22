@@ -1,0 +1,9 @@
+{\small \begin{multicols}{2} \raggedright
+\textbf{(a)} Určete definiční obor funkce \(f(x)\). \\[1mm]
+\textbf{(b)} Určete definiční obor funkce \(g(x)\). \\[1mm]
+\textbf{(c)} Určete definiční obor funkce \(h(t)\). \par \columnbreak
+\textbf{(d)} Určete interval, na kterém je funkce \(u(x)\) nezáporná. \\[1mm]
+\textbf{(e)} Vypočítejte hodnotu funkce \(\varphi(t)\) v bodě \(t_0\). \\[1mm]
+\textbf{(f)} Určete počet průsečíků grafu funkce \(w(x)\) s~osou~\(x\). \\[1mm]
+\end{multicols}
+}

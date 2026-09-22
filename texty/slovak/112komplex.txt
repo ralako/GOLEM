@@ -1,0 +1,9 @@
+{\small \begin{multicols}{2} \raggedright
+\textbf{(a)} Určte imaginárnu časť komplexného čísla. \\[1mm]
+\textbf{(b)} Zapíšte v algebraickom tvare. \\[1mm]
+\textbf{(c)} Zjednodušte a výsledné komplexné číslo zapíšte v~exponenciálnom tvare. \par \columnbreak
+\textbf{(d)} Určte uhol \(\varphi\) komplexného čísla. \\[1mm]
+\textbf{(e)} Zapíšte zadané komplexné číslo v~goniometrickom tvare. \\[1mm]
+\textbf{(f)} Vyriešte rovnicu v obore komplexných čísel a určte súčin jej riešení.
+\end{multicols}
+}

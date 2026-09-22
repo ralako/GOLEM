@@ -99,7 +99,10 @@ class P23(Zadanie):     # rovnica
 class P24(Zadanie):     # zjednodusenie vyrazu
     def __init__(self):
         super().__init__()
-        A,B,C,D,E,F,G = super().zvolKoef(7, [[]])
+        while True:
+            A,B,C,D,E,F,G = super().zvolKoef(7, [[]])
+            if abs(G) != 1:
+                break
         self.zadanie = super().prepis(r'G(A+Bi)-(C+Di)\overline{(E+Fi)}', [A,B,C,D,E,F,G])
         self.riesenie = self.texKomplexneCislo(G*A-C*E-D*F , G*B+C*F-D*E)
         nahoda = random()

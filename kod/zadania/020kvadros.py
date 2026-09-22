@@ -26,8 +26,8 @@ class P2(Zadanie):     # poloha vrcholu x-os
         super().__init__()
         A,B,C = super().zvolKoef(3, [[]])
         self.zadanie = super().prepis(r'f(x)=Ax^2+Bx+C', [A,B,C])
-        self.riesenie = super().texRiesZlomCisla(-B, 2*A)
-        self.neriesenie = super().texRiesZlomCisla(B, 2*A)
+        self.riesenie = super().texRiesZlomCisla(-B, 2*A, nicefrac=False, popZnamienko=True)
+        self.neriesenie = super().texRiesZlomCisla(B, 2*A, nicefrac=False, popZnamienko=True)
 
 
 class P3(Zadanie):     # poloha vrcholu y-os
@@ -37,10 +37,10 @@ class P3(Zadanie):     # poloha vrcholu y-os
         self.zadanie = super().prepis(r'f(x)=Ax^2+Bx+C', [A,B,C])
         if -B*B+4*A*C == 0:
             self.riesenie = str(0)
-            self.neriesenie = super().texRiesZlomCisla(-B*B+2*A*C, 4*A)
+            self.neriesenie = super().texRiesZlomCisla(-B*B+2*A*C, 4*A, nicefrac=False, popZnamienko=True)
         else:
-            self.riesenie = super().texRiesZlomCisla(-B*B+4*A*C, 4*A)
-            self.neriesenie = super().texRiesZlomCisla(-B*B+2*A*C, 4*A)
+            self.riesenie = super().texRiesZlomCisla(-B*B+4*A*C, 4*A, nicefrac=False, popZnamienko=True)
+            self.neriesenie = super().texRiesZlomCisla(-B*B+2*A*C, 4*A, nicefrac=False, popZnamienko=True)
         
 
 class P4(Zadanie):     # sucet riešení (lahsie)
@@ -63,8 +63,8 @@ class P5(Zadanie):     # sucet riešení (tazsie)
             if C/B != E/D and C/B != -E/D:
                 break
         self.zadanie = super().prepis(str(A*B*D)+r'x^2+'+str(A*(B*E+C*D))+r'x+'+str(A*C*E)+r'=0', [A,B,C,D,E])
-        self.riesenie = super().texRiesZlomCisla(-C*D-E*B, B*D)
-        self.neriesenie = super().texRiesZlomCisla(-C*D+E*B, B*D)
+        self.riesenie = super().texRiesZlomCisla(-C*D-E*B, B*D, nicefrac=False, popZnamienko=True)
+        self.neriesenie = super().texRiesZlomCisla(-C*D+E*B, B*D, nicefrac=False, popZnamienko=True)
 
 
 ###---------

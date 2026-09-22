@@ -45,17 +45,17 @@ sady = [["."],
         ["010zatvorky"],
         ["020kvadros"],
         ["030kubric"],
-        ["040definic"],
-        ["050limity" , "051limity"],
-        ["060derivacie"],
+        ["040definic", "041definic"],
+        ["050limity" , "051limity", "052limity"],
+        ["060derivacie", "061derivacie"],
         ["070dotycnica"],
         ["080stacinflex"],
         ["090","091parcialMulti"],
         ["100"],
-        ["110komplex","111komplex"]
+        ["110komplex","111komplex","112komplex"]
 ]
 
 
 
 
-generuj(sady[9][1],"english",minimalistic=False,rieseniaNaStranu=7,nameless=True)
+generuj(sady[2][0], "czech", minimalistic=False, rieseniaNaStranu=12, nameless=False)

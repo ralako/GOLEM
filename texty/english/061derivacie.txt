@@ -1,0 +1,9 @@
+{\small \begin{multicols}{2} \raggedright
+\textbf{(a)} Determine the monotonicity of the function \(f(x)\) in the neighborhood of the point \(x_0\). \\[1mm]
+\textbf{(b)} Determine the intervals on which the function \(g(x)\) is decreasing. \\[1mm]
+\textbf{(c)} Determine the number of stationary points of the function \(h(t)\). \\[1mm]
+\textbf{(d)} Does the function \(v(x)\) attain a local extremum? \par \columnbreak
+\textbf{(e)} Determine the difference between the values of the local maximum and the local minimum of the function \(\varphi(x)\). \\[1mm]
+\textbf{(f)} Determine the product of the \(x\)-coordinates of the points of the global maximum and global minimum of the function \(\omega(x)\) on the given interval. \\[1mm]
+\end{multicols}
+}

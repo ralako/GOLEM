@@ -1,0 +1,9 @@
+{\small \begin{multicols}{2} \raggedright
+\textbf{(a)} Determine whether the limit of the function exists. \\[1mm]
+\textbf{(b)} Determine whether the limit of the function converges or diverges. \\[1mm]
+\textbf{(c)} Evaluate the limit of the function. \par \columnbreak
+\textbf{(d)} Evaluate the limit of the function. \\[1mm]
+\textbf{(e)} Evaluate the limit of the function. \\[1mm]
+\textbf{(f)} Evaluate the limit of the function. \\[1mm]
+\end{multicols}
+}

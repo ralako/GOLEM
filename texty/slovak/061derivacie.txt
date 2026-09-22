@@ -1,0 +1,9 @@
+{\small \begin{multicols}{2} \raggedright
+\textbf{(a)} Určte monotónnosť funkcie \(f(x)\) v okolí bodu \(x_0\). \\[1mm]
+\textbf{(b)} Určte intervaly, na ktorých je funkcia \(g(x)\) klesajúca. \\[1mm]
+\textbf{(c)} Určte počet stacionárnych bodov funkcie \(h(t)\). \par \columnbreak
+\textbf{(d)} Nadobúda funkcia \(v(x)\) lokálny extrém? \\[1mm]
+\textbf{(e)} Určte rozdiel hodnôt lokálneho maxima a lokálneho minima funkcie \(\varphi(x)\). \\[1mm]
+\textbf{(f)} Určte súčin \(x\)-ových súradníc bodov globálneho maxima a globálneho minima funkcie \(\omega(x)\) na zadanom intervale. \\[1mm]
+\end{multicols}
+}

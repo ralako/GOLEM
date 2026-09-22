@@ -1,0 +1,9 @@
+{\small \begin{multicols}{2} \raggedright
+\textbf{(a)} Determine the domain of the function \(f(x)\). \\[1mm]
+\textbf{(b)} Determine the domain of the function \(g(x)\). \\[1mm]
+\textbf{(c)} Determine the domain of the function \(h(t)\). \\[1mm]
+\textbf{(d)} Determine the interval on which the function \(u(x)\) is non-negative. \par \columnbreak
+\textbf{(e)} Determine the value of the function \(\varphi(t)\) at the point \(t_0\). \\[1mm]
+\textbf{(f)} Determine the number of intersection points of the function plot \(w(x)\) with the \(x\)-axis. \\[1mm]
+\end{multicols}
+}

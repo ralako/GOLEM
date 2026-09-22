@@ -27,7 +27,7 @@ braille = {
     "t":[0,1,1, 0,1,1],
     "u":[1,0,1, 1,0,0],
     "v":[1,1,1, 1,0,0],
-    "w":[1,1,1, 1,1,0],
+    "w":[0,1,0, 1,1,1],
     "x":[1,0,1, 1,0,1],
     "y":[1,0,1, 1,1,1],
     "z":[1,0,1, 1,1,0],
@@ -54,11 +54,11 @@ braille = {
 
 
 
-slovaStringSlovak = "žaba auto repa ruka ivan mama jana okno čína sova jaro emil noha zima urán slon úpal zuby ucho pero iglu prah krab mapa prst golf úlet most žito žila cena jama baba vaňa čelo anna krst hora ryba drak mrak lama blaf býky časť dáma domy elán hady husi jóga kráľ lyža mlok mzda nula obor olej okno ovad pena rado sane vrah kóma sklo sója špeh taxi tóga úraz váha vlci vlek vzor zrub žaba žula ibis kosť hrad uhol euro tlak vlak úlet jojo nora film lano erik česť figy voda pivo osol wifi igor epos lupa fľak olej ústa doma deka seno hana ropa hlad cela rada kiwi"
+slovaStringSlovak = "žaba auto repa ruka ivan mama jana okno čína sova jaro emil noha zima urán slon úpal zuby ucho pero iglu prah krab mapa prst golf úlet most žito žila cena jama baba vaňa čelo anna krst hora ryba drak mrak lama blaf býky časť dáma domy elán hady husi jóga kráľ lyža mlok mzda nula obor olej okno ovad pena rado sane vrah kóma sklo sója špeh taxi tóga úraz váha vlci vlek vzor zrub žaba žula ibis kosť hrad uhol euro tlak vlak úlet jojo nora film lano erik česť figy voda pivo osol igor epos lupa fľak olej ústa doma deka seno hana ropa hlad cela rada"
 slovaSlovak = slovaStringSlovak.split(' ')
 shuffle(slovaSlovak)
 
-slovaStringCzech = "žába auto watt řepa ruka ivan šála kolo wolf cukr máma jana okno čína sova word jaro emil noha táta zima uran bota slon úpal zuby ucho pero iglu golf úlet most žito žíla cena jáma bába vana čelo anna hora šnek ryba drak ibis kost hrad úhel euro jako tlak vlak úkol ústí jojo žrát bobr nora film lano erik urna zubr únor čest fíky voda pivo osel wifi igor epos lupa foto flek fena zelí olej ústa doma deka seno hana řasa ropa hlad cela copy dort čokl rada mrak"
+slovaStringCzech = "žába auto řepa ruka ivan šála kolo cukr máma jana okno čína sova jaro emil noha táta zima uran bota slon úpal zuby ucho pero iglu golf úlet most žito žíla cena jáma bába vana čelo anna hora šnek ryba drak ibis kost hrad úhel euro jako tlak vlak úkol ústí jojo žrát bobr nora film lano erik urna zubr únor čest fíky voda pivo osel igor epos lupa foto flek fena zelí olej ústa doma deka seno hana řasa ropa hlad cela copy dort čokl rada mrak"
 slovaCzech = slovaStringCzech.split(' ')
 shuffle(slovaCzech)
 

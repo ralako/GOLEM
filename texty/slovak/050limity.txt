@@ -1,4 +1,4 @@
 {
-\textbf{(a), (b, (c), (d), (e), (f)} Vypočítajte limitu postupnosti. \\[-1mm]
+\textbf{(a), (b), (c), (d), (e), (f)} Vypočítajte limitu postupnosti. \\[-1mm]
 \phantom{x}
 }
